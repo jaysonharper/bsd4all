@@ -1,0 +1,133 @@
+body {
+  padding-top: 25px;
+  color: white;
+  background-color: #252728;
+  text-align: center;
+  font-family: Arial;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: inherit;
+  font-size: 32pt;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: none;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 50px;
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover {
+  color: #ffff96;
+}
+
+/* Menu item separator */
+.navbar span {
+  color: #2474c5;
+}
+
+/* Main image */
+.img-main {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.img-main img {
+  border-radius: 25px;
+}
+
+/* Main Panels */
+.panel {
+  display: inline-block;
+  background-color: #3b3d3e;
+  text-align: justify;
+  min-height: 100px;
+  height: fit-content;
+  margin: 25px;
+  padding: 50px;
+  border-radius: 25px;
+  width: 1540px;
+  font-size: 26pt;
+}
+
+.panel h1 {
+  text-align: center;
+  margin: 0px;
+}
+
+.panel hr {
+  border-color: #252728;
+}
+
+ol > li {
+  padding-bottom: 25px;
+}
+
+/* Calendar event sub-panel */
+.calendar-panel {
+  display: inline-block;
+  background-color: #252728;
+  border-radius: 15px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  width: fit-content;
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.calendar-month {
+  border-bottom: solid;
+  color: #ff7c74;
+}
+
+/* Calendar event details */
+.calendar-event {
+  display: block;
+  float: right;
+  background-color: #252728;
+  border-radius: 15px;
+  /* text-align: center; */
+  margin: 10px;
+  padding: 50px;
+  width: 1250px;
+}
+
+.event-date {
+  color: #ff7c74;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.event-title {
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.event-location {
+  color: cadetblue;
+}
+
+.event-address {
+  padding-bottom: 25px;
+}
+
+.event-address a {
+  color: cadetblue;
+}
+
+.center {
+  text-align: center;
+}
+
+/* footer */
+footer {
+  font-size: 22pt;
+}
